@@ -41,7 +41,6 @@ st.title('Ask LLM(Layth Learning Model)')
 @st.cache_resource
 def load_pdf():
 # Update PDF name here to whatever you like
- #pdfs = ['./BattChallengeReqs/BMS Software Requirement.pdf', './BattChallengeReqs/BWC_-_Software_Requirements_Document_-_Rev5.pdf']
  documents = []
  pdf_folder_path = 'BattChallengeReqs'
  for file in os.listdir(pdf_folder_path):
